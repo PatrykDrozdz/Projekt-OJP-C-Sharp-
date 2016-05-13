@@ -261,29 +261,39 @@ namespace Kantor
                 okno_tekst.Text = tekst;
 
                 //wyłuskiwanie kursów walut
-                string [] split=okno_tekst.Lines[646].Split(new char[] { '>', '<' });
-                kurs_euro.Text =  split[2].ToString();
 
-                string[] split2 = okno_tekst.Lines[640].Split(new char[] { '>', '<' });
+                //EUR
+                string[] split = okno_tekst.Lines[674].Split(new char[] { '>', '<' });//
+                kurs_euro.Text = split[2].ToString();
+                //kurs_euro.Text = okno_tekst.Lines[646];
+
+                //USD
+                string[] split2 = okno_tekst.Lines[668].Split(new char[] { '>', '<' });//
                 kurs_dolara.Text = split2[2].ToString();
 
-                string[] split3 = okno_tekst.Lines[748].Split(new char[] { '>', '<' });
+                //SEK
+                string[] split3 = okno_tekst.Lines[776].Split(new char[] { '>', '<' });//
                 kurs_kor.Text = split3[2].ToString();
 
-                string[] split4 = okno_tekst.Lines[658].Split(new char[] { '>', '<' });
+                //GBP
+                string[] split4 = okno_tekst.Lines[686].Split(new char[] { '>', '<' });//
                 kurs_funt.Text = split4[2].ToString();
 
-                string[] split5 = okno_tekst.Lines[652].Split(new char[] { '>', '<' });
+                //CHF
+                string[] split5 = okno_tekst.Lines[680].Split(new char[] { '>', '<' });//
                 kurs_frank.Text = split5[2].ToString();
 
-                string[] split6 = okno_tekst.Lines[814].Split(new char[] { '>', '<' });
+                //RUB
+                string[] split6 = okno_tekst.Lines[842].Split(new char[] { '>', '<' });//
                 kurs_rubel.Text = split6[2].ToString();
 
-                string[] split7 = okno_tekst.Lines[712].Split(new char[] { '>', '<' });
+                //JPY
+                string[] split7 = okno_tekst.Lines[740].Split(new char[] { '>', '<' });//
                 kurs_jen.Text = split7[2].ToString();
 
-                string[] split8 = okno_tekst.Lines[718].Split(new char[] { '>', '<' });
-                kurs_ren_chiny.Text = split8[2].ToString();   
+                //CNY
+                string[] split8 = okno_tekst.Lines[746].Split(new char[] { '>', '<' });//
+                kurs_ren_chiny.Text = split8[2].ToString();
 
             }
 

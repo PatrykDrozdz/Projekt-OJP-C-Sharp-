@@ -94,7 +94,7 @@
             this.Kursy.Controls.Add(this.euro);
             this.Kursy.Location = new System.Drawing.Point(12, 63);
             this.Kursy.Name = "Kursy";
-            this.Kursy.Size = new System.Drawing.Size(767, 214);
+            this.Kursy.Size = new System.Drawing.Size(807, 214);
             this.Kursy.TabIndex = 0;
             this.Kursy.TabStop = false;
             this.Kursy.Text = "Aktualny kurs";
@@ -292,7 +292,7 @@
             // 
             this.wyb_wal.AutoSize = true;
             this.wyb_wal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.wyb_wal.Location = new System.Drawing.Point(415, 16);
+            this.wyb_wal.Location = new System.Drawing.Point(243, 18);
             this.wyb_wal.Name = "wyb_wal";
             this.wyb_wal.Size = new System.Drawing.Size(12, 16);
             this.wyb_wal.TabIndex = 27;
@@ -302,7 +302,7 @@
             // 
             this.opisek.AutoSize = true;
             this.opisek.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.opisek.Location = new System.Drawing.Point(303, 16);
+            this.opisek.Location = new System.Drawing.Point(134, 16);
             this.opisek.Name = "opisek";
             this.opisek.Size = new System.Drawing.Size(103, 16);
             this.opisek.TabIndex = 26;
@@ -312,7 +312,7 @@
             // 
             this.przel_ren_chiny.AutoSize = true;
             this.przel_ren_chiny.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.przel_ren_chiny.Location = new System.Drawing.Point(686, 114);
+            this.przel_ren_chiny.Location = new System.Drawing.Point(668, 114);
             this.przel_ren_chiny.Name = "przel_ren_chiny";
             this.przel_ren_chiny.Size = new System.Drawing.Size(12, 16);
             this.przel_ren_chiny.TabIndex = 25;
@@ -322,7 +322,7 @@
             // 
             this.przel_frank.AutoSize = true;
             this.przel_frank.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.przel_frank.Location = new System.Drawing.Point(531, 158);
+            this.przel_frank.Location = new System.Drawing.Point(538, 187);
             this.przel_frank.Name = "przel_frank";
             this.przel_frank.Size = new System.Drawing.Size(12, 16);
             this.przel_frank.TabIndex = 24;
@@ -332,7 +332,7 @@
             // 
             this.przel_jen.AutoSize = true;
             this.przel_jen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.przel_jen.Location = new System.Drawing.Point(531, 61);
+            this.przel_jen.Location = new System.Drawing.Point(542, 114);
             this.przel_jen.Name = "przel_jen";
             this.przel_jen.Size = new System.Drawing.Size(12, 16);
             this.przel_jen.TabIndex = 23;
@@ -342,7 +342,7 @@
             // 
             this.przel_funt.AutoSize = true;
             this.przel_funt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.przel_funt.Location = new System.Drawing.Point(353, 187);
+            this.przel_funt.Location = new System.Drawing.Point(350, 187);
             this.przel_funt.Name = "przel_funt";
             this.przel_funt.Size = new System.Drawing.Size(12, 16);
             this.przel_funt.TabIndex = 22;
@@ -362,7 +362,7 @@
             // 
             this.przel_RUB.AutoSize = true;
             this.przel_RUB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.przel_RUB.Location = new System.Drawing.Point(172, 147);
+            this.przel_RUB.Location = new System.Drawing.Point(163, 187);
             this.przel_RUB.Name = "przel_RUB";
             this.przel_RUB.Size = new System.Drawing.Size(12, 16);
             this.przel_RUB.TabIndex = 20;
@@ -372,7 +372,7 @@
             // 
             this.przel_USD.AutoSize = true;
             this.przel_USD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.przel_USD.Location = new System.Drawing.Point(172, 61);
+            this.przel_USD.Location = new System.Drawing.Point(163, 114);
             this.przel_USD.Name = "przel_USD";
             this.przel_USD.Size = new System.Drawing.Size(12, 16);
             this.przel_USD.TabIndex = 19;
@@ -412,7 +412,7 @@
             // 
             this.opis_ren_chiny.AutoSize = true;
             this.opis_ren_chiny.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.opis_ren_chiny.Location = new System.Drawing.Point(686, 79);
+            this.opis_ren_chiny.Location = new System.Drawing.Point(668, 79);
             this.opis_ren_chiny.Name = "opis_ren_chiny";
             this.opis_ren_chiny.Size = new System.Drawing.Size(39, 18);
             this.opis_ren_chiny.TabIndex = 15;
@@ -422,7 +422,7 @@
             // 
             this.opis_jen.AutoSize = true;
             this.opis_jen.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.opis_jen.Location = new System.Drawing.Point(531, 26);
+            this.opis_jen.Location = new System.Drawing.Point(542, 79);
             this.opis_jen.Name = "opis_jen";
             this.opis_jen.Size = new System.Drawing.Size(35, 18);
             this.opis_jen.TabIndex = 14;
@@ -432,7 +432,7 @@
             // 
             this.opis_rubel.AutoSize = true;
             this.opis_rubel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.opis_rubel.Location = new System.Drawing.Point(172, 112);
+            this.opis_rubel.Location = new System.Drawing.Point(163, 152);
             this.opis_rubel.Name = "opis_rubel";
             this.opis_rubel.Size = new System.Drawing.Size(40, 18);
             this.opis_rubel.TabIndex = 13;
@@ -442,7 +442,7 @@
             // 
             this.opis_frank_szw.AutoSize = true;
             this.opis_frank_szw.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.opis_frank_szw.Location = new System.Drawing.Point(531, 123);
+            this.opis_frank_szw.Location = new System.Drawing.Point(538, 152);
             this.opis_frank_szw.Name = "opis_frank_szw";
             this.opis_frank_szw.Size = new System.Drawing.Size(39, 18);
             this.opis_frank_szw.TabIndex = 12;
@@ -452,7 +452,7 @@
             // 
             this.opis_funt.AutoSize = true;
             this.opis_funt.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.opis_funt.Location = new System.Drawing.Point(353, 152);
+            this.opis_funt.Location = new System.Drawing.Point(350, 152);
             this.opis_funt.Name = "opis_funt";
             this.opis_funt.Size = new System.Drawing.Size(40, 18);
             this.opis_funt.TabIndex = 11;
@@ -472,7 +472,7 @@
             // 
             this.opis_dolar.AutoSize = true;
             this.opis_dolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.opis_dolar.Location = new System.Drawing.Point(172, 26);
+            this.opis_dolar.Location = new System.Drawing.Point(163, 79);
             this.opis_dolar.Name = "opis_dolar";
             this.opis_dolar.Size = new System.Drawing.Size(40, 18);
             this.opis_dolar.TabIndex = 9;
@@ -520,10 +520,10 @@
             // 
             // okno_tekst
             // 
-            this.okno_tekst.Location = new System.Drawing.Point(2, 2);
+            this.okno_tekst.Location = new System.Drawing.Point(-4, 2);
             this.okno_tekst.Multiline = true;
             this.okno_tekst.Name = "okno_tekst";
-            this.okno_tekst.Size = new System.Drawing.Size(10, 10);
+            this.okno_tekst.Size = new System.Drawing.Size(18, 10);
             this.okno_tekst.TabIndex = 4;
             // 
             // Kantor
